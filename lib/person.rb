@@ -5,7 +5,7 @@ class Person
   end
 
   def name
-    @name
+    "#{@name}".strip
   end
 
   def name= (new_name)
@@ -13,7 +13,7 @@ class Person
   end
 
   def job
-    @job
+    "#{@job}".strip
   end
 
   def job= (new_job)
