@@ -5,7 +5,7 @@ class Dog
   end
 
   def name
-    @name
+    "#{@name}".strip
   end
 
   def name= (new_name)
@@ -13,7 +13,7 @@ class Dog
   end
 
   def breed
-    @breed
+    "#{@breed}".strip
   end
 
   def breed= (new_breed)
